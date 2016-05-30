@@ -57,7 +57,32 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
-
+header{
+    background-color: ;
+    width: 100%;
+}
+.navbar-custom {
+  background: black;
+  position: absolute;
+  top: 0;
+  padding-left: 200px;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.navbar-custom .navbar-brand {
+  font-weight: 800;
+}
+.navbar-custom .nav li a {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.title{
+    background-color: black;
+}
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
@@ -262,6 +287,7 @@ Full-Width Styles
 *******************************************************************************/
 
 .outer {
+    background-color: #536872;
   width: 100%;
 }
 
@@ -287,7 +313,7 @@ Full-Width Styles
   border-bottom-right-radius: 2px;
 }
 
-#header_wrap {
+#wrap {
   background: #212121;
   background: -moz-linear-gradient(top, #373737, #212121);
   background: -webkit-linear-gradient(top, #373737, #212121);
@@ -297,7 +323,9 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+    background-color: #536872;
+  padding: 100px 10px 30px 10px;
+  width: 100%;
 }
 
 #project_title {
@@ -305,7 +333,7 @@ Full-Width Styles
   color: #fff;
   font-size: 42px;
   font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
+
 }
 
 #project_tagline {
@@ -429,4 +457,13 @@ Small Device Styles
   font-style: normal;
   font-weight: 400;
   src: local('Lobster'), local('Lobster-Regular'), url(https://fonts.gstatic.com/s/lobster/v16/NIaFDq6p6eLpSvtV2DTNDQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+
+.navbar-default{
+    width: 100%;
+}
+.navbar .nav {
+    margin: 0;
+    display: table;
+    width: 100%;
 }
